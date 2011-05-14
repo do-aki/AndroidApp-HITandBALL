@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello Hit and Ball</string>
+    <string name="app_name">HITandBALL</string>
+    <string name="label_hit_suffix">Hit</string>
+    <string name="label_ball_suffix">Ball</string>
+    <string name="button_judge">judge!</string>
+    <string name="notice_congratulation">congratulation!!</string>
+    <string name="menu_new_game">New game</string>
+    <string name="menu_exit">Exit</string>
+</resources>

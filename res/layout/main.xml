@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:id="@+id/text_message"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="30px" android:textSize="20px" android:id="@+id/text_hit" android:text="0" android:layout_gravity="center_horizontal" android:gravity="center"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:text="@string/label_hit_suffix" android:layout_gravity="bottom"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="30px" android:textSize="20px" android:id="@+id/text_ball" android:text="0" android:layout_gravity="center" android:gravity="center"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView4" android:text="@string/label_ball_suffix" android:layout_gravity="bottom"></TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+    <EditText android:inputType="number" android:layout_width="match_parent" android:layout_gravity="fill" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_weight="1" android:imeOptions="actionSend"></EditText>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_judge" android:id="@+id/button_judge"></Button>
+</LinearLayout>
+<ListView android:id="@+id/listView1" android:layout_height="wrap_content" android:layout_width="match_parent" android:focusable="false"></ListView>
+</LinearLayout>
